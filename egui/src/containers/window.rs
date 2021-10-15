@@ -25,7 +25,7 @@ use super::*;
 pub struct Window<'open> {
     title_label: Label,
     open: Option<&'open mut bool>,
-    area: Area,
+    pub area: Area,
     frame: Option<Frame>,
     resize: Resize,
     scroll: Option<ScrollArea>,
