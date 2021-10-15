@@ -93,7 +93,7 @@ pub struct Memory {
     #[cfg_attr(feature = "serde", serde(skip))]
     pub(crate) drag_value: crate::widgets::drag_value::MonoState,
 
-    pub(crate) areas: Areas,
+    pub areas: Areas,
 
     /// Which popup-window is open (if any)?
     /// Could be a combo box, color picker, menu etc.
