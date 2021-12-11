@@ -728,7 +728,7 @@ impl Ui {
         id
     }
 
-    pub fn placer(&self) -> &Placer {
+    pub(crate) fn placer(&self) -> &Placer {
         &self.placer
     }
 
