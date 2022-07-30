@@ -721,7 +721,7 @@ fn get_wayland_display<T>(_event_loop: &EventLoopWindowTarget<T>) -> Option<*mut
         target_os = "openbsd"
     ))]
     {
-        return _event_loop.wayland_display();
+        // return _event_loop.wayland_display();
     }
 
     #[allow(unreachable_code)]
